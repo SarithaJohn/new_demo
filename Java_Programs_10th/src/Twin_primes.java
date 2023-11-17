@@ -5,7 +5,7 @@ public class Twin_primes {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-
+/* sample program */
 		System.out.println("Enter the two numbers");
 		int a = sc.nextInt(); // 7
 		int b = sc.nextInt(); // 5

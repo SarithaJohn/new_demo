@@ -6,7 +6,7 @@ public class DoubleLetterCnt {
 
 		int count = 0;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the sentence: ");
+		System.out.print("Enter a sentence: ");
 		String sentence = sc.nextLine().toLowerCase();
 		int length = sentence.length();
 		for (int i = 0; i < length - 1; i++) {
@@ -14,7 +14,7 @@ public class DoubleLetterCnt {
 				count++;
 			}
 		}
-		System.out.println("Number of Double Letter Sequence is " + count);
+		System.out.println("Number of Double Letter Sequence is: " + count);
 
 	}
 
